@@ -4,6 +4,8 @@ import AjaxTest from './AjaxTest';
 import AjaxTest2 from './AjaxTest2';
 import React, { useState } from 'react';
 import AjaxTest3 from './AjaxTest3';
+import Suggestion from './Suggestion';
+import AjaxTest4 from './AjaxTest4';
 
 function App() {
   const [id, setId] = useState("");
@@ -25,7 +27,9 @@ function App() {
     //   </from>
     //   <AjaxTest2 id = { id } />
     // </div>
-    <AjaxTest3 />
+    //<AjaxTest3 />
+    //<Suggestion />
+    <AjaxTest4 />
   );
 }
 
